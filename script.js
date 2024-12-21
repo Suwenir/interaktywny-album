@@ -1,4 +1,3 @@
-
 const slides = document.querySelectorAll('.slide');
 let currentIndex = 0;
 
