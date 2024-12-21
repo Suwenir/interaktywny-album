@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mój Interaktywny Album</title>
+    <title>Interaktywny Album</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Witaj w Albumie!</h1>
-    <p>Tu zaczyna się moja strona internetowa.</p>
+    <div class="album">
+        <div class="slide">
+            <img src="zdjecia/zdjecie1.jpg" alt="Zdjęcie 1">
+            <p>Opis do zdjęcia 1</p>
+        </div>
+        <div class="slide">
+            <img src="zdjecia/zdjecie2.jpg" alt="Zdjęcie 2">
+            <p>Opis do zdjęcia 2</p>
+        </div>
+        <div class="slide">
+            <img src="zdjecia/zdjecie3.jpg" alt="Zdjęcie 3">
+            <p>Opis do zdjęcia 3</p>
+        </div>
+    </div>
+
+    <!-- Padający śnieg -->
+    <div class="snow"></div>
+
+    <!-- Muzyka w tle -->
+    <audio autoplay loop>
+        <source src="audio/ma_meilleure_ennemie.mp3" type="audio/mpeg">
+        Twoja przeglądarka nie obsługuje odtwarzania audio.
+    </audio>
+
+    <script src="script.js"></script>
 </body>
 </html>
